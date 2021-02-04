@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+  </title>
+  <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body><center>
+  <div class="circle"></div>
+  <div class="buttons">
+    <form action="file:///C:/Users/Darms/Desktop/Project/Prof.html">
+  <button>Click</button>
+    </form>
+  </div>
+  <div class="circle"></div>
+  <svg>
+    <filter id="wavy">
+      <feTurbulence x="0" y="0" baseFrequency="0.009" numOctaves="5" seed="2">
+      <animate attributeName="baseFrequency" dur="60s" values="0.02;0.005;0.02" repeatCount="indefinite">
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" scale="30">
+      </feDisplacementMap>
+    </filter>
+  </svg>
+  </center>
+</body>
+</html>
